@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connexion</title>
+    <link rel="stylesheet" href="connexion.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <ul>
+          <li><a href="/index.html">Accueil</a></li>
+          <li><a href="/listeproduit.html">Liste des produits</a></li>
+          <li><a href="/panier.html">Panier</a></li>
+          <li><a href="/Connexion.html">Connexion</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2>Connexion</h2>
+    <section id="content-form">
+      <form id="formulaire" method="post">
+        <label for="username">identifiant:</label><br />
+        <input type="text" id="username" name="username" /><br /><br />
+        <label for="password">Mot de passe:</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+        <button id="connexion">Se connecter</button>
+
+        <section id="bloc-inscription">
+          <p id="text-inscription">Vous n'avez pas de compte ?</p>
+          <a href="/inscription.html" id="inscription">inscription</a>
+        </section>
+      </form>
+    </section>
+    <script src="connexion.js"></script>
+  </body>
+</html>

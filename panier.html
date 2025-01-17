@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="panier.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <ul>
+          <li><a href="/index.html">Accueil</a></li>
+          <li><a href="/listeproduit.html">Liste des produits</a></li>
+          <li><a href="/panier.html">Panier</a></li>
+          <li><a href="/Connexion.html">Connexion</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="cart">
+      <h2>Panier (1 produits)</h2>
+      <div class="item">
+        <img src="Capture d’écran 2025-01-14 à 14.41.57.png" alt="WH-1000XM4" />
+        <div class="item-details">
+          <h3>WH-1000XM4</h3>
+          <p>Bleu</p>
+          <p class="price">249,99 €</p>
+          <div class="quantity">
+            <button id="btn-neg">-</button>
+            <span id="count">1</span>
+            <button id="btn-pos">+</button>
+          </div>
+        </div>
+        <button
+          style="
+            background: none;
+            border: none;
+            color: red;
+            font-size: 20px;
+            cursor: pointer;
+          "
+        ></button>
+      </div>
+      <div class="footer">
+        <p class="total">Total 249,99 €</p>
+        <button class="view-cart">Voir le panier</button>
+        <button class="pay">Paiement</button>
+      </div>
+    </div>
+
+    <script src="scriptPanier.js"></script>
+  </body>
+</html>

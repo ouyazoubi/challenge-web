@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inscription</title>
+    <link rel="stylesheet" href="inscription.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <ul>
+          <li><a href="/index.html">Accueil</a></li>
+          <li><a href="/listeproduit.html">Liste des produits</a></li>
+          <li><a href="/panier.html">Panier</a></li>
+          <li><a href="/Connexion.html">Connexion</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2>Inscription</h2>
+    <form action="/inscription.html" method="post">
+      <label for="username">identifiant:</label><br />
+      <input type="text" id="username" name="username" required /><br /><br />
+
+      <label for="password">Mot de passe:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+
+      <label for="password">confirmer mot de passe:</label><br />
+      <input type="password" id="password" name="password" required />
+      <br /><br />
+      <input type="submit" value="Se connecter" />
+    </form>
+  </body>
+</html>
